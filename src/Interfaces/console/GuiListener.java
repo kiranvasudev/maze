@@ -15,7 +15,7 @@ public class GuiListener extends AConsoleListener {
 		goingon = true;
 		stringArray = input;
 		//TODO: this is redundant, isn't it?!  
-		//_globalConf.getMazeHandler().createNewGui();
+		_globalConf.getMazeHandler().createNewGui();
 		
 	}
 

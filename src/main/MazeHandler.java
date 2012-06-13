@@ -56,7 +56,7 @@ public class MazeHandler {
 	/**
 	 * starts up the graphical user interface
 	 */
-	private void createNewGui() {
+	public void createNewGui() {
 
 		if (_globalConf.getGUI() != null)
 			_globalConf.getGUI().hide();
