@@ -7,6 +7,11 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
+/**
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
+ * 
+ * This class creates the globally accessible logger. 
+ */
 public class MyLogger {
 	static private FileHandler fileTxt;
 	static private SimpleFormatter formatterTxt;

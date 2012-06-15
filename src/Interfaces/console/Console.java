@@ -5,6 +5,11 @@ import java.util.Scanner;
 import main.Conf;
 import main.MazeHandler;
 
+/**
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
+ *
+ * Interactive command line interface (CLI). Console is the only way to control the maze  
+ */
 public class Console extends AConsoleListener {
 	static MazeHandler _mymaze;
 	IConsoleListener[] _listenerCommands = null;

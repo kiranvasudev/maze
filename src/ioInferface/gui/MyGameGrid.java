@@ -7,7 +7,7 @@ import ch.aplu.jgamegrid.GameGrid;
 import ch.aplu.jgamegrid.Location;
 
 /**
- * @author green
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  *
  */
 public class MyGameGrid extends GameGrid {
@@ -16,6 +16,11 @@ public class MyGameGrid extends GameGrid {
 	private LittleBug littleBug;
 	private Conf _globalConf;
 
+	/**
+	 * @param rows	rows of the maze
+	 * @param cols	columns of the maze 
+	 * @param globalConf global configuraiton handler
+	 */
 	public MyGameGrid(int rows, int cols, Conf globalConf) {
 		super(rows, cols, 22, Color.black,
 				"sprites/white_background_601x601.png", false);
@@ -28,7 +33,7 @@ public class MyGameGrid extends GameGrid {
 	}
 
 	/**
-	 * @param pos
+	 * @param pos array of the position of the little bug
 	 */
 	public void configLitteBug(int[] pos) {
 		littleBug = new LittleBug(_globalConf);

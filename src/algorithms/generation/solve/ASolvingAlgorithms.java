@@ -5,6 +5,11 @@ import labyrinth.Maze;
 import main.Conf;
 import algorithms.generation.Algorithms;
 
+/**
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
+ *
+ * This class defines the behavior of all solving algorithms
+ */
 abstract public class ASolvingAlgorithms extends Algorithms implements
 		ISolvingAlgorithms {
 	/**

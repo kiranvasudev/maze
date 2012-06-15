@@ -2,8 +2,16 @@ package Interfaces.console;
 
 import main.Conf;
 
+/**
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
+ *
+ * subconsole for all gui commands
+ */
 public class GuiListener extends AConsoleListener {
 
+	/**
+	 * @param globalConf global configuration handler
+	 */
 	public GuiListener(Conf globalConf) {
 		super(globalConf);
 	}

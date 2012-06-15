@@ -6,6 +6,11 @@ import java.util.logging.Level;
 import logging.UseLogger;
 import main.Conf;
 
+/**
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
+ *
+ * Subconsole for all log commands
+ */
 public class LogListener extends AConsoleListener {
 private String[] _possiblesLogs = null;
 	public LogListener(Conf globalConf) {
@@ -18,24 +23,22 @@ private String[] _possiblesLogs = null;
 	/**
 	 * Possible Log shades: FINEST, FINER, FINE, CONFIG, INFO, WARNING, SEVERE
 	 */
-	public void initPossibleLogLevels() {
+	private void initPossibleLogLevels() {
 		_possiblesLogs = new String[] { "OFF", "FINEST", "FINER", "FINE",
 				"CONFIG", "INFO", "WARNING", "SEVERE", "ALL" };
 	}
 
 	/**
-	 * @param loglevel
-	 * @return
+	 * @param loglevel loglevel to check
+	 * @return	returns true if the given loglevel is valid
 	 */
 	public boolean isLogLevel(String loglevel) {
 		return (Arrays.asList(_possiblesLogs).contains(loglevel));
-//		for (int i = 0; i < _possiblesLogs.length; i++) {
-//			if (_possiblesLogs[i].contains(loglevel.toUpperCase()))
-//				return true;
-//		}
-//		return false;
 	}
 
+	/* (non-Javadoc)
+	 * @see Interfaces.console.IConsoleListener#startListening(java.lang.String[])
+	 */
 	public void startListening(String[] input) {
 		goingon = true;
 		stringArray = input;
@@ -80,6 +83,9 @@ private String[] _possiblesLogs = null;
 		}
 	}
 
+	/**
+	 * Logs the currently used loglevel 
+	 */
 	public void getcurrentLogLevel() {
 		Conf.LOGSTRING = "The current Log Level is set to: " + getLogLevel();
 
@@ -88,10 +94,16 @@ private String[] _possiblesLogs = null;
 
 	}
 
+	/**
+	 * @return	the current loglevel
+	 */
 	public String getLogLevel() {
 		return UseLogger.LOGGER.getLevel().toString();
 	}
 
+	/**
+	 * @param level	sets the current loglevel to level
+	 */
 	public void setLogLevel(String level) {
 
 		try {
@@ -106,6 +118,9 @@ private String[] _possiblesLogs = null;
 		goingon = false;
 	}
 
+	/* (non-Javadoc)
+	 * @see Interfaces.console.IConsoleListener#getHelp()
+	 */
 	@Override
 	public void getHelp() {
 		if (!isLogLevel(stringArray[0]) || inputString.isEmpty()) {
@@ -128,8 +143,10 @@ private String[] _possiblesLogs = null;
 
 	}
 
+	/* (non-Javadoc)
+	 * @see Interfaces.console.IConsoleListener#getCommand()
+	 */
 	public String getCommand() {
-
 		return "LOG";
 	}
 

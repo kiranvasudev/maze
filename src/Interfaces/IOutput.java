@@ -1,5 +1,10 @@
 package Interfaces;
 
+/**
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
+ *
+ * IO Interface
+ */
 public interface IOutput {
 
 	/**

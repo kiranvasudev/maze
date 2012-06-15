@@ -15,6 +15,12 @@ import algorithms.generation.solve.ISolvingAlgorithms;
 import algorithms.generation.solve.OwnSolvingAlgo;
 import algorithms.generation.solve.WallFollowerSolvingAlgorithm;
 
+/**
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
+ *
+ * Global MazeHandler is the controller of everything.
+ * Handles all kinds of requests from all classes to all classes
+ */
 public class MazeHandler {
 
 	private ACreatingAlgorithms[] _possiblesCreatingAlgos = null;

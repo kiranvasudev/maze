@@ -7,6 +7,11 @@ import labyrinth.Maze;
 import logging.UseLogger;
 import main.Conf;
 
+/**
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
+ *
+ * This class solves a maze with the wall follower algorithm
+ */
 public class WallFollowerSolvingAlgorithm extends ASolvingAlgorithms {
 	private int[] currentCellPos;
 	private Direction direction;

@@ -3,7 +3,7 @@ package algorithms.generation.create;
 /**
  * this is the interface for all creating Algorithms
  * 
- * @author micha
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  * 
  */
 public interface ICreatingAlgorithms {

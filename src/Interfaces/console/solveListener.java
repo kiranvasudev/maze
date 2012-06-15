@@ -3,6 +3,11 @@ package Interfaces.console;
 import main.Conf;
 import main.MazeHandler;
 
+/**
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
+ *
+ * Subconsole for all solve commands
+ */
 public class solveListener extends AConsoleListener {
 
 	private String[] possiblesSolvingAlgo;
@@ -15,18 +20,28 @@ public class solveListener extends AConsoleListener {
 		initPossibleAlgos();
 	}
 
-	public void initPossibleAlgos() {
+	/**
+	 * Instances all possible algorithms
+	 */
+	private void initPossibleAlgos() {
 		possiblesSolvingAlgo = new String[] { "OWN", "WALLFOLLOWER", "HELP" };
 	}
 
-	public boolean containsAlgo(String loglevel) {
+	/**
+	 * @param algo algorithm to check.
+	 * @return returns true if the given algorithm is a valid solving algorithm
+	 */
+	public boolean containsAlgo(String algo) {
 		for (int i = 0; i < possiblesSolvingAlgo.length; i++) {
-			if (possiblesSolvingAlgo[i].contains(loglevel.toUpperCase()))
+			if (possiblesSolvingAlgo[i].contains(algo.toUpperCase()))
 				return true;
 		}
 		return false;
 	}
 
+	/* (non-Javadoc)
+	 * @see Interfaces.console.IConsoleListener#startListening(java.lang.String[])
+	 */
 	public void startListening(String[] input) {
 		goingon = true;
 		stringArray = input;
@@ -65,6 +80,9 @@ public class solveListener extends AConsoleListener {
 		}
 	}
 
+	/* (non-Javadoc)
+	 * @see Interfaces.console.IConsoleListener#getHelp()
+	 */
 	@Override
 	public void getHelp() {
 		if (!containsAlgo(stringArray[0]) || inputString.isEmpty()
@@ -87,6 +105,9 @@ public class solveListener extends AConsoleListener {
 		reinitializeStringArray();
 	}
 
+	/* (non-Javadoc)
+	 * @see Interfaces.console.IConsoleListener#getCommand()
+	 */
 	@Override
 	public String getCommand() {
 		return "SOLVE";

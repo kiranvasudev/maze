@@ -1,8 +1,11 @@
 package labyrinth;
 
 /**
- * @author green
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  * 
+ * Every Cell could be either an unbreakable cell (e.g. a wall),
+ * a breakable cell (wall at the beginning, room in the end) or 
+ * cell which represents a room in the maze.
  */
 public class Cell {
 

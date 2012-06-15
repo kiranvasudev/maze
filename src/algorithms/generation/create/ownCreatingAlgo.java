@@ -9,7 +9,7 @@ import main.Conf;
  * this algorithm is a creating algotihm with a own created algorithm, which is
  * near to the kruscal algorithm
  * 
- * @author micha
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  * 
  */
 public class ownCreatingAlgo extends ACreatingAlgorithms {

@@ -3,6 +3,11 @@ package Interfaces.console;
 import main.Conf;
 import main.MazeHandler;
 
+/**
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
+ *
+ * Subconsole for all create commands
+ */
 public class createListener extends AConsoleListener {
 	private MazeHandler _mymaze;
 

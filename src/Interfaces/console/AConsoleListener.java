@@ -6,6 +6,11 @@ import Interfaces.IOutput;
 
 import main.Conf;
 
+/**
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
+ *
+ * This class describes which methods a Console must implement
+ */
 public abstract class AConsoleListener implements IConsoleListener {
 
 	protected String inputString = " ";
@@ -16,10 +21,7 @@ public abstract class AConsoleListener implements IConsoleListener {
 	protected IOutput _myoutput = null;
 	protected String _inputString = null;
 
-	public AConsoleListener() {
-		// TODO Auto-generated constructor stub
-	}
-
+	
 	public AConsoleListener(Conf globalConf) {
 		_globalConf = globalConf;
 		_myoutput = _globalConf.get_output();

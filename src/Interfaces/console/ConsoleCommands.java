@@ -1,5 +1,10 @@
 package Interfaces.console;
 
+/**
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
+ * 
+ * All valid console commands (w/o parameters)
+ */
 public class ConsoleCommands {
 
 	protected static String LOG = "LOG";

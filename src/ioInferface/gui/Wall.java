@@ -7,11 +7,14 @@ import ch.aplu.jgamegrid.Actor;
  * possibilities of an actor in a GUI. So the cell of the maze is an actor which
  * just use a black background.
  * 
- * @author micha
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  * 
  */
 class Wall extends Actor {
 
+	/**
+	 * creates a wall 
+	 */
 	public Wall() {
 		super(true, "sprites/black_background_22.png");
 		this.setCollisionImage();

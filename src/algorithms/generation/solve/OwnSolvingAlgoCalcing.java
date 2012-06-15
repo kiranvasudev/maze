@@ -5,6 +5,11 @@ import labyrinth.Maze;
 import logging.UseLogger;
 import main.Conf;
 
+/**
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
+ *
+ * This class contains the calculation part  of the own solving algorithm
+ */
 public class OwnSolvingAlgoCalcing {
 	private Cell _endCell;
 	private Maze _maze;

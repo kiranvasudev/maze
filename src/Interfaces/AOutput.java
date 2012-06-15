@@ -3,6 +3,11 @@ package Interfaces;
 import java.io.PrintStream;
 
 
+/**
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
+ * 
+ * This class describes the behavior of every output device
+ */
 public class AOutput implements IOutput {
 	PrintStream _mystream = null;
 

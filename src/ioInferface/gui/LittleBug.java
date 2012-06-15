@@ -7,10 +7,18 @@ import main.Conf;
 import ch.aplu.jgamegrid.Actor;
 import ch.aplu.jgamegrid.GGKeyListener;
 
+/**
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
+ *
+ * Creates the little bug which is able to walk through the maze 
+ */
 class LittleBug extends Actor implements GGKeyListener {
 	
 	private Conf _globalConf = null;
 	
+	/**
+	 * @param globalConf global configuration handler
+	 */
 	public LittleBug(Conf globalConf) {
 		super(true, "sprites/smallbug.gif");
 		_globalConf = globalConf;

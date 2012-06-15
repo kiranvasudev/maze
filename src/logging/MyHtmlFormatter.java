@@ -7,7 +7,11 @@ import java.util.logging.Handler;
 import java.util.logging.Level;
 import java.util.logging.LogRecord;
 
-//This custom formatter formats parts of a log record to a single line
+/**
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
+ *
+ * This class takes care of the HTML Log formating 
+ */
 class MyHtmlFormatter extends Formatter
 {
 	/* (non-Javadoc)

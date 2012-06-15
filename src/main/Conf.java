@@ -11,8 +11,9 @@ import logging.MyLogger;
 import logging.UseLogger;
 
 /**
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
+ * 
  * General variables and methods are stored in this central configuration class
- *
  */
 public class Conf {
 	public final static int LEFT_WALL = 0;
@@ -52,14 +53,23 @@ public class Conf {
 		return _myGui;
 	}
 
+	/**
+	 * Sets up the logger
+	 */
 	public Conf() {
 		setUpLogger();
 	}
 
+	/**
+	 * @return Output device
+	 */
 	public IOutput get_output() {
 		return _output;
 	}
 
+	/**
+	 * @param output Sets the output device to the output 
+	 */
 	public void set_output(IOutput output) {
 		this._output = output;
 	}

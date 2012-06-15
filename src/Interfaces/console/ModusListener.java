@@ -2,13 +2,24 @@ package Interfaces.console;
 
 import main.Conf;
 
+/**
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
+ *
+ * Subconsole for all Modus commands
+ */
 public class ModusListener extends AConsoleListener {
 
+	/**
+	 * @param globalConf	global Configuration Handler
+	 */
 	public ModusListener(Conf globalConf) {
 		super(globalConf);
 
 	}
 
+	/* (non-Javadoc)
+	 * @see Interfaces.console.IConsoleListener#startListening(java.lang.String[])
+	 */
 	public void startListening(String[] input) {
 		goingon = true;
 		stringArray = input;
@@ -53,6 +64,9 @@ public class ModusListener extends AConsoleListener {
 		}
 	}
 
+	/* (non-Javadoc)
+	 * @see Interfaces.console.IConsoleListener#getHelp()
+	 */
 	@Override
 	public void getHelp() {
 		if (inputString.isEmpty()
@@ -83,6 +97,9 @@ public class ModusListener extends AConsoleListener {
 		reinitializeStringArray();
 	}
 
+	/**
+	 * @return	true if input is valid, false if invalid
+	 */
 	private boolean isvalidInput() {
 
 		if (stringArray[0].equals(ConsoleCommands.GET))
@@ -99,10 +116,9 @@ public class ModusListener extends AConsoleListener {
 		return false;
 	}
 
-	{
-
-	}
-
+	/* (non-Javadoc)
+	 * @see Interfaces.console.IConsoleListener#getCommand()
+	 */
 	@Override
 	public String getCommand() {
 		return "MODUS";

@@ -5,8 +5,9 @@ import labyrinth.Maze;
 import main.Conf;
 
 /**
- * @author green
- *
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
+ * 
+ * Abstract class which defines some general algorithm details such as name
  */
 abstract public class Algorithms implements IAlgorithms {
 
@@ -15,8 +16,6 @@ abstract public class Algorithms implements IAlgorithms {
 	protected Conf _globalConf;
 	protected Cell _startCell;
 	protected Cell _endCell;
-
-	// protected IOutput _myOutput = null;
 
 	/**
 	 * default constructor (is needed for Solving Algos. The solving Algos

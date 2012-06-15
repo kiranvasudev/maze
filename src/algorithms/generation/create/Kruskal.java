@@ -6,7 +6,7 @@ import labyrinth.Maze;
  * this class is not implemented yet. it should show that a new algorithm can be
  * added easily
  * 
- * @author micha
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  * 
  */
 public class Kruskal extends ACreatingAlgorithms {
