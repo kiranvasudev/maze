@@ -3,9 +3,9 @@ package Interfaces.console;
 import main.Conf;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
- *
  * subconsole for all gui commands
+ *
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 public class GuiListener extends AConsoleListener {
 

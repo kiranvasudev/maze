@@ -1,9 +1,9 @@
 package algorithms.generation.solve;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
- *
  * This interface describes the behavior of all solving algorithms
+ *
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 public interface ISolvingAlgorithms {
 

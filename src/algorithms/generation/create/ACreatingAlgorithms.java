@@ -4,9 +4,9 @@ import labyrinth.Maze;
 import algorithms.generation.Algorithms;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
- *
  * This Class defines the behavior for all creating algorithms
+ *
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 abstract public class ACreatingAlgorithms extends Algorithms implements ICreatingAlgorithms{
 

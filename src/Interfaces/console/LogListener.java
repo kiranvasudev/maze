@@ -7,9 +7,9 @@ import logging.UseLogger;
 import main.Conf;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
- *
  * Subconsole for all log commands
+ *
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 public class LogListener extends AConsoleListener {
 private String[] _possiblesLogs = null;

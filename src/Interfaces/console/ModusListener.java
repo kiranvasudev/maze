@@ -3,9 +3,9 @@ package Interfaces.console;
 import main.Conf;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
- *
  * Subconsole for all Modus commands
+ *
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 public class ModusListener extends AConsoleListener {
 

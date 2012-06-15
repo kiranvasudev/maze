@@ -7,8 +7,9 @@ import ch.aplu.jgamegrid.GameGrid;
 import ch.aplu.jgamegrid.Location;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
+ * creates the game gui
  *
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 public class MyGameGrid extends GameGrid {
 

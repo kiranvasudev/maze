@@ -5,9 +5,9 @@ import java.io.PrintStream;
 import Interfaces.AOutput;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
- *
  * This implements a console as output stream
+ *
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 public class OutputConsole extends AOutput {
 

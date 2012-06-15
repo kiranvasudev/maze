@@ -1,9 +1,9 @@
 package Interfaces.console;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
- * 
  * All valid console commands (w/o parameters)
+ * 
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 public class ConsoleCommands {
 

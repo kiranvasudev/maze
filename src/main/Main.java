@@ -5,9 +5,9 @@ import Interfaces.console.Console;
 import Output.OutputConsole;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
- * 
  * Main program, initiallizies the global configuration, sets the output device and starts the control console
+ * 
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 public class Main {
 

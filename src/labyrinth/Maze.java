@@ -10,11 +10,11 @@ import java.util.Random;
 import main.Conf;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
- *
  * This class creates a maze containing all cells. This class contains all HashMaps
  * and ArrayLists which contain data such as Position of each cell, a list of all 
  * roots as well as a list of all cells. 
+ *
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 public class Maze {
 	private int _rows, _cols;

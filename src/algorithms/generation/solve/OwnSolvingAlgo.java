@@ -6,10 +6,10 @@ import logging.UseLogger;
 import main.Conf;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
  * 
  * This class solves a maze with an own solving algorithm which is a recursive algorithm
  *
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 public class OwnSolvingAlgo extends ASolvingAlgorithms {
 

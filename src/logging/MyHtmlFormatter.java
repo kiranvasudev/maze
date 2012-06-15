@@ -8,9 +8,9 @@ import java.util.logging.Level;
 import java.util.logging.LogRecord;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
- *
  * This class takes care of the HTML Log formating 
+ *
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 class MyHtmlFormatter extends Formatter
 {

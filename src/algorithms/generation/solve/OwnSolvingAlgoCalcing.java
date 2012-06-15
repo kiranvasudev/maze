@@ -6,9 +6,9 @@ import logging.UseLogger;
 import main.Conf;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
- *
  * This class contains the calculation part  of the own solving algorithm
+ *
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 public class OwnSolvingAlgoCalcing {
 	private Cell _endCell;

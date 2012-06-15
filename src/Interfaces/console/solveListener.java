@@ -4,9 +4,9 @@ import main.Conf;
 import main.MazeHandler;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
- *
  * Subconsole for all solve commands
+ *
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 public class solveListener extends AConsoleListener {
 

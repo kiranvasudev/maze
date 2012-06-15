@@ -1,9 +1,9 @@
 package algorithms.generation;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
- *
  * This Interface defines the behaviour of all Algorithms
+ *
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 public interface IAlgorithms {
 

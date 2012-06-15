@@ -11,9 +11,9 @@ import logging.MyLogger;
 import logging.UseLogger;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
- * 
  * General variables and methods are stored in this central configuration class
+ * 
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 public class Conf {
 	public final static int LEFT_WALL = 0;

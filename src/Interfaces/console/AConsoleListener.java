@@ -7,9 +7,9 @@ import Interfaces.IOutput;
 import main.Conf;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
- *
  * This class describes which methods a Console must implement
+ *
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 public abstract class AConsoleListener implements IConsoleListener {
 

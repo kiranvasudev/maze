@@ -4,9 +4,9 @@ import java.io.IOException;
 import java.util.logging.Logger;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
- *
  * This class creates the globally accessible logger
+ *
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 public class UseLogger {
 	public final static Logger LOGGER = Logger.getLogger(UseLogger.class

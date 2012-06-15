@@ -4,9 +4,9 @@ import java.io.PrintStream;
 
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
- * 
  * This class describes the behavior of every output device
+ * 
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 public class AOutput implements IOutput {
 	PrintStream _mystream = null;

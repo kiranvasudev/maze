@@ -3,8 +3,8 @@ package ioInferface.gui;
 import ch.aplu.jgamegrid.Actor;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
  * This class just shows a blue dot in the maze
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 public class BlueDot extends Actor {
 

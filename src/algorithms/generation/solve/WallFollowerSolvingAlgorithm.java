@@ -8,9 +8,9 @@ import logging.UseLogger;
 import main.Conf;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
- *
  * This class solves a maze with the wall follower algorithm
+ *
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 public class WallFollowerSolvingAlgorithm extends ASolvingAlgorithms {
 	private int[] currentCellPos;

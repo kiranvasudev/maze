@@ -8,9 +8,9 @@ import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
- * 
  * This class creates the globally accessible logger. 
+ * 
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 public class MyLogger {
 	static private FileHandler fileTxt;

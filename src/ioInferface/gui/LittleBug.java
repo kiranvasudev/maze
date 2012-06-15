@@ -8,9 +8,9 @@ import ch.aplu.jgamegrid.Actor;
 import ch.aplu.jgamegrid.GGKeyListener;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
- *
  * Creates the little bug which is able to walk through the maze 
+ *
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 class LittleBug extends Actor implements GGKeyListener {
 	

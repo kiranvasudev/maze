@@ -1,9 +1,9 @@
 package Interfaces.console;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
- *
  * This interface describes the behavior of all any console
+ *
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 public interface IConsoleListener {
 

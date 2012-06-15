@@ -5,9 +5,9 @@ import labyrinth.Maze;
 import main.Conf;
 
 /**
- * @author Micha Schoenenberger, Andreas Gruenenfelder
- * 
  * Abstract class which defines some general algorithm details such as name
+ * 
+ * @author Micha Schoenenberger, Andreas Gruenenfelder
  */
 abstract public class Algorithms implements IAlgorithms {
 
